@@ -19,7 +19,6 @@ npm run build
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
-############################################
 To install the dependencies listed in the "package.json" file of a Vue.js project, you can use the npm (Node Package Manager) package manager. Here are the steps to install the dependencies:
 1) Open a terminal or command prompt in the project directory.
 2) Run the following command: "npm install".
