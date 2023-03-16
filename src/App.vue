@@ -52,6 +52,8 @@
           <router-link to="/samsung" class="navbar-item">SAMSUNG</router-link>
 
 
+
+
           <div class="navbar-item">
             <div class="buttons">
               <router-link to="/log-in" class="button is-light">Log in</router-link>
@@ -103,6 +105,7 @@ export default{
       }
     }
   },
+
   beforeCreate(){
     this.$store.commit('initializeStore')
     const token = this.$store.state.token

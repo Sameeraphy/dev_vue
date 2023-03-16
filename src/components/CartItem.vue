@@ -43,7 +43,7 @@ export default{
         },
         removeFromCart(item){
             this.$emit('removeFromCart',item)
-            this.updateCart
+            this.updateCart()
         },
 
     },
