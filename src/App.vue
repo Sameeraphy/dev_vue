@@ -20,7 +20,7 @@
             <form method="get" action="/search">
               <div class="field has-addons">
                 <div class="control">
-                  <input type="text" class="input" placeholder="What are you looking for?" name="query">
+                  <input type="text" class="input" placeholder="Search query" name="query">
                 </div>
 
                 <div class="control">
@@ -47,9 +47,9 @@
         </div>
 
         <div class="navbar-end">
-          <router-link to="/nokia" class="navbar-item">NOKIA</router-link>
-          <router-link to="/apple" class="navbar-item">APPLE</router-link>
-          <router-link to="/samsung" class="navbar-item">SAMSUNG</router-link>
+          <router-link to="/Vehicles" class="navbar-item">VEHICLES</router-link>
+          <router-link to="/UC" class="navbar-item">MACHINERY</router-link>
+          <!-- <router-link to="/samsung" class="navbar-item">SAMSUNG</router-link> -->
 
 
 
@@ -59,12 +59,12 @@
               <router-link to="/log-in" class="button is-light">Log in</router-link>
 
             
-              <router-link to="/cart" class="button is-success">
+              <!-- <router-link to="/cart" class="button is-success">
                 <span class="icon"><i class="fas fa-shopping-cart"></i></span>
-                
+                 -->
                 <!-- <span class="icon"><img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"></span> -->
-                <span>Cart ({{ cartTotalLength }})</span>
-              </router-link>
+                <!-- <span>Cart ({{ cartTotalLength }})</span>
+              </router-link> -->
 
             </div>
 
@@ -87,7 +87,7 @@
     </section>
 
     <footer class="footer">
-      <p class="has-text-centered">© Sameera Jayathunge 2023</p>
+      <p class="has-text-centered">© Irrigation Department 2023</p>
     </footer>
 
   </div>

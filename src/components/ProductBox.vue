@@ -24,15 +24,17 @@
             <img :src="product.get_thumbnail" alt="Product Image" class="product-image" />
         </td> -->
                 <td> 
-                    <div class="column">{{ product.num }}</div>
+                    <div class="column">{{ product.Pool_Assigned }}</div>
                 </td>
                 <td> 
                     <div class="column">{{ product.registration_num }}</div>
                 </td>
                 <td> 
-                    <div class="column">{{ product.Purchased_Price }}</div>
+                    <div class="column">{{ product.Registration_date }}</div>
                 </td>
-
+                <td> 
+                    <div class="column">{{ product.make }} {{ product.model }}</div>
+                </td>
                 <td> 
                     <div class="column">
                     <router-link :to="product.get_absolute_url" class="button is-dark">View Details</router-link>
@@ -77,15 +79,19 @@ export default{
         margin-right: -1.25rem;
     } */
     .table-container {
-        margin: 20px;
+        margin: 0;
         width: 100%;
     }
 
     .column {
-        display: flex;
+        /* display: flex;
         justify-content: center;
         align-items: center;
-        height: 100%;
+        height: 100%; */
+        display: table-cell;
+        /* padding: 10px; */
+        /* vertical-align: middle; */
+        text-align: left;
     }
     .product-table {
         border-collapse: collapse;

@@ -76,7 +76,7 @@ export default {
                     axios.defaults.headers.common["Authorization"]="Token"+token
                     
                     localStorage.setItem("token",token)
-                    const toPath=this.$route.query.to||'/cart'
+                    const toPath=this.$route.query.to||'/UC'
                     this.$router.push(toPath)
                 })
                 .catch(error=>{

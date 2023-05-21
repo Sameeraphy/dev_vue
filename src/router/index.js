@@ -8,6 +8,7 @@ import Search from '../views/Search.vue'
 import Cart from '../views/Cart.vue'
 import SignUp from  '../views/SignUp.vue'
 import LogIn from  '../views/LogIn.vue'
+import UC from  '../views/UC.vue'
 
 const routes = [
   {
@@ -29,7 +30,11 @@ const routes = [
     name: 'Search',
     component: Search
   },
-
+  {
+    path: '/UC',
+    name: 'UC',
+    component: UC
+  },
   {
     path: '/:category_slug/:product_slug',
     name: 'Product',
