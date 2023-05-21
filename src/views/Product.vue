@@ -84,7 +84,7 @@ methods:{
 
             .then(response => {
                 this.product=response.data
-                document.title=this.product.name+'$ameera'
+                document.title=this.product.name+' | VMS'
             })
 
             .catch(error => {

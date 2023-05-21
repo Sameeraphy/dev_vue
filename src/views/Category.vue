@@ -81,7 +81,7 @@ export default{
                 .get(`/api/v1/products/${categorySlug}/`)
                 .then(response=>{
                     this.category=response.data
-                    document.title=this.category.name+'|$AMEERA'
+                    document.title=this.category.name+'|VMS'
                 })
                 .catch(error=>{
                     console.log(error)
