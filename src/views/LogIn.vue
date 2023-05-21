@@ -57,7 +57,7 @@ export default {
         }
     },
     mounted(){
-        document.title='Log In | $AMEERA'
+        document.title='Log In | VMS'
     },
     methods:{
         async submitForm(){

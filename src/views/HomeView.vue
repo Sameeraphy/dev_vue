@@ -3,11 +3,11 @@
       <section class="hero is-medium is-dark mb-6">
         <div class="hero-body has-text-centered">
           <p class="title mb-6">
-            Welcome to TE$T
+            IRRIGATION DEPARTMENT
           </p>
 
           <p class="subtitle">
-            Welcome to TE$T $ITE
+            Vehicle Management System
           </p>
         </div>
       </section>
@@ -141,7 +141,7 @@ export default {
 
   mounted(){
     this.getLatestProducts()
-    document.title='Home | $ameera'
+    document.title='Home | VMS'
   },
 
   methods:{
@@ -160,3 +160,10 @@ export default {
 }
 </script>
 
+<style>
+  .hero {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+  }
+</style>
