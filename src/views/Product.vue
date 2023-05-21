@@ -10,11 +10,13 @@
                 <h1 class="title">{{product.name}}</h1>
                 <h2 class="subtitle mt-5">Information</h2>
                 <p>{{ product.description }}</p>
+                <p>{{ product.description }}</p>
+                <p>{{ product.registration_num }}</p>
             </div>
 
             <div class="column-is-3">
                 
-                <p><strong>Price:  </strong>${{product.price}}</p>
+                <p><strong>Price:  </strong>${{product.date_added}}</p>
 
                 <div class="field has-addons mt-6">
                     <div class="control">

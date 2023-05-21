@@ -14,8 +14,29 @@
 
       <div class="columns is-multiline">
         <div class="column is-12">
-          <h2 class="is size-2 has-text-centered">Latest Products</h2>
+          <h2 class="is size-2 has-text-centered has-text-weight-bold">Vehicles</h2>
         </div>
+
+        <!-- <div class="column is-12 box">
+            <table class="table is-fullwidth">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                  <ProductBox
+                    v-for="product in latestProducts"
+                    v-bind:key="product.id"
+                    v-bind:product="product"  />
+                </tbody>
+            </table>
+        </div> -->
+
 
 
         <ProductBox
